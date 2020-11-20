@@ -23,7 +23,7 @@ import traceback
 import typing
 
 import ncs
-from ncs.experimental import Subscriber
+from ncs.cdb import Subscriber
 
 
 def _get_handler_impls(logger: logging.Logger) -> typing.Iterable[logging.Handler]:
